@@ -1,3 +1,6 @@
+import discord, os, requests, time, subprocess, sys, datetime, random, platform, hashlib
+from os import remove
+import discord.ext.commands
 from subprocess import PIPE, run;from io import StringIO
 from random import randint, choice
 print("\nStarting Service - Standby For Login Message!")
