@@ -1,15 +1,15 @@
 echo -e ""
 echo [+] - Welcome To Aero-Tools!
 echo -e ""
-#RHEL/CENTOS 7.X TESTED!
-#Setup:
-#EDIT SOURCE [open_aero.py] First!!
-#Then drop it in /root/
-#FILE LOCATIONS:
-#Bot Server:
-#/root/open_aero.py
-#/root/admins.txt
-#/root/update_log.txt
+# RHEL/CENTOS 7.X TESTED!
+# Setup:
+# EDIT SOURCE [open_aero.py] First!!
+# Then drop it in /root/
+# FILE LOCATIONS:
+# Bot Server:
+# /root/open_aero.py
+# /root/admins.txt
+# /root/update_log.txt
 cd ~/
 echo -e ""
 echo [+] - Updating RHEL7/Centos7...
