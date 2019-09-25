@@ -10,7 +10,6 @@ echo -e ""
 # /root/open_aero.py
 # /root/admins.txt
 # /root/update_log.txt
-cd ~/
 echo -e ""
 echo [+] - Updating RHEL7/Centos7...
 echo -e ""
