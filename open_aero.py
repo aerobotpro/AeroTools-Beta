@@ -1,30 +1,30 @@
-import discord, os, requests, time, subprocess, sys, datetime, random, platform, hashlib
-from os import remove
-import discord.ext.commands
 from subprocess import PIPE, run;from io import StringIO
 from random import randint, choice
 print("\nStarting Service - Standby For Login Message!")
-def get_logs():
-    with open(settings.update_log, 'w+') as file:
-        logs = str(file.read())
-        logs = str(f"```css\n{logs}\n```")
-    return logs
+
 
 #############################       EDIT Below >  
-admin_file = "admins.txt"
+admin_file = "aero_admins.txt"
 t_key = "dbd726df4beeac82be8c210f5b216ea9"
 class settings:
     update_log = "new_updates.txt" # UPDATE LOG FILENAME HERE
     Token = ""# TOKEN HERE
     rp = "^help | https://aero-bot.pro/"# RICH PRESENCE STATUS HERE
-    update_log = get_logs()
 class channels:#EDIT CHANNEL ID'S Below - Make Sure Bot Has Correct Perms! > 
     bot_announcements = 0000000000000
     security_log = 0000000000000
     tickets = 0000000000000
     applications = 0000000000000
 ###########################################################################################################################    
-    
+
+def get_logs():
+    with open(settings.update_log, 'w+') as file:
+        logs = str(file.read())
+        logs = str(f"```css\n{logs}\n```")
+    return logs
+
+update_log = get_logs()
+
 class url:
     class mean:
         freeze_gif="https://i.imgur.com/ehxMcVy.gif"
@@ -37,7 +37,6 @@ class url:
         meet_again_gif = "https://giphy.com/gifs/hyperrpg-twitch-kollok-kollok1991-2ywMwSsEFKu6HuxWrg"
 
 class strings:
-    
     null_ = ""
     strip_1=str("""   
     IS VALID?: """)
