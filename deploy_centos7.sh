@@ -1,4 +1,3 @@
-#! /bin/bash
 echo -e ""
 echo [+] - Welcome To Aero-Tools!
 echo -e ""
